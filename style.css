@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+   width: 100%;
+   height:150vh; 
+}
+body{
+    width: 100%;
+    height:150vh;
+    background-color:hsl(233, 47%, 7%);
+    text-align: center;
+}
+.container{
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 150px;
+    width: 983px;
+    height:416px;
+    position: relative;
+  }
+.card-content{
+    width: 491px;
+    height:416px;
+    background-color:hsl(244, 38%, 16%);
+    position: absolute;
+    text-align: center;
+    float: left;
+}
+.card-title{
+    margin-top: 15%;
+    margin-left:20%;
+    width: 60%;
+    color: hsl(0, 0%, 100%); 
+}
+span{
+    color: hsl(277, 64%, 61%);
+}
+.card-text{
+    margin-top: 8%;
+    margin-left:20%; 
+    width: 60%;
+    color: hsla(0, 0%, 100%, 0.75) ;  
+    text-align: left;
+}
+.card-desc{
+   width: 60%;
+   display: flex;
+   margin-left:20%; 
+   margin-top:5%;
+   
+}
+.card-desc h1{
+    margin: 20px;
+    color: hsl(0, 0%, 100%);
+ }
+ .card-desc p{
+    margin: 20px;
+     color: hsl(0, 0%, 100%);
+ }
+ .card-sub-desc{
+    width: 60%;
+    display: flex;
+    margin-top:9%; 
+    color: hsla(0, 0%, 100%, 0.75); 
+    position: absolute;
+ }
+ .card-img{
+    width: 50%;
+    height:416px;
+   float: right;
+ }
+ .card-img img{
+    width: 491px;
+    height:416px;
+    
+ }
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
