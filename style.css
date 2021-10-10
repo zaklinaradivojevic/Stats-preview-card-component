@@ -28,42 +28,58 @@ body{
     position: absolute;
     text-align: center;
     float: left;
+   
 }
 .card-title{
     margin-top: 15%;
-    margin-left:20%;
-    width: 60%;
+    margin-left:10%;
+    width: 80%;
     color: hsl(0, 0%, 100%); 
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
 }
 span{
     color: hsl(277, 64%, 61%);
 }
 .card-text{
-    margin-top: 8%;
-    margin-left:20%; 
-    width: 60%;
+    margin-top: 5%;
+    margin-left:15%; 
+    width: 80%;
     color: hsla(0, 0%, 100%, 0.75) ;  
     text-align: left;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Lexend Deca', sans-serif;
 }
 .card-desc{
-   width: 60%;
+   width: 80%;
    display: flex;
-   margin-left:20%; 
+   margin-left:10%; 
    margin-top:5%;
    
 }
 .card-desc h1{
-    margin: 20px;
+    margin: 30px;
     color: hsl(0, 0%, 100%);
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+
  }
  .card-desc p{
     margin: 20px;
-     color: hsl(0, 0%, 100%);
+    color: hsla(0, 0%, 100%, 0.75); 
+     text-transform: uppercase;
+     font-size: small;
+     font-family: 'Lexend Deca', sans-serif;
+
  }
  .card-sub-desc{
-    width: 60%;
+    width: 80%;
     display: flex;
     margin-top:9%; 
+    margin-left: 10px;
     color: hsla(0, 0%, 100%, 0.75); 
     position: absolute;
  }
@@ -71,15 +87,16 @@ span{
     width: 50%;
     height:416px;
    float: right;
+   filter: hue-rotate(80deg) brightness(80%);
+   background: linear-gradient( rgba(0,130,170,.5),rgba(0,130,170,.5)), url("https://github.com/zaklinaradivojevic/Stats-preview-card-component/blob/main/images/image-header-desktop.jpg?raw=true" );
  }
- .card-img img{
-    width: 491px;
-    height:416px;
+ 
     
- }
+    
 .attribution {
     font-size: 11px;
     text-align: center;
+    color: white;
   }
 
   .attribution a {
